@@ -1,0 +1,46 @@
+{
+  "name": "pencilblue-cli",
+  "description": "A command line interface for PencilBlue.",
+  "version": "0.1.0",
+  "homepage": "https://pencilblue.org",
+  "author": {
+    "name": "PencilBlue",
+    "email": "info@pencilblue.org",
+    "url": "https://pencilblue.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pencilblue/pencilblue-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pencilblue/pencilblue-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://pencilblue.org/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/pencilblue-cli",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": ["pencilblue", "cms", "cli", "install"],
+  "preferGlobal": "true",
+  "bin": {
+    "pencilblue": "lib/pencilblue-cli.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.3.0",
+    "prompt": "^0.2.13"
+  }
+}
