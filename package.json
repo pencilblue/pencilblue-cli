@@ -1,10 +1,10 @@
 {
   "name": "pencilblue-cli",
   "description": "A command line interface for PencilBlue.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://pencilblue.org",
   "author": {
-    "name": "PencilBlue",
+    "name": "pencilblue",
     "email": "info@pencilblue.org",
     "url": "https://pencilblue.org"
   },
