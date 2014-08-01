@@ -6,10 +6,16 @@ A command line interface for PencilBlue.
 Install the module with: `sudo npm install -g pencilblue-cli`
 
 ## Examples
-### Create and Install a PencilBlue Instance
+### Create and install a PencilBlue instance
 ```
 pencilblue install <directory>
 ```
+### Start PencilBlue
+From the root directory of a PencilBlue instance:
+```
+pencilblue start <optional method>
+```
+Optional methods are nodemon, node, and forever.
 ### Get pencilblue-cli version
 ```
 pencilblue version
