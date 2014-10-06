@@ -20,9 +20,26 @@ Optional methods are nodemon, node, and forever.
 ```
 pencilblue version
 ```
+or 
+```
+pencilblue --version
+```
+or
+```
+pencilblue v
+```
+
 ### Get pencilblue-cli help
 ```
+pencilblue
+```
+or
+```
 pencilblue help
+```
+or
+```
+pencilblue h
 ```
 
 ## License
