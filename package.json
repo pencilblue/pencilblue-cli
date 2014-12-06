@@ -34,13 +34,19 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.5"
   },
-  "keywords": ["pencilblue", "cms", "cli", "install"],
+  "keywords": [
+    "pencilblue",
+    "cms",
+    "cli",
+    "install"
+  ],
   "preferGlobal": "true",
   "bin": {
     "pencilblue": "lib/pencilblue-cli.js"
   },
   "dependencies": {
-    "shelljs": "^0.3.0",
-    "prompt": "^0.2.13"
+    "process": "0.9.0",
+    "prompt": "^0.2.13",
+    "shelljs": "^0.3.0"
   }
 }
