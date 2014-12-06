@@ -8,38 +8,38 @@ Install the module with: `sudo npm install -g pencilblue-cli`
 ## Examples
 ### Create and install a PencilBlue instance
 ```
-pencilblue install <directory>
+pbctrl install <directory>
 ```
 ### Start PencilBlue
 From the root directory of a PencilBlue instance:
 ```
-pencilblue start <optional method>
+pbctrl start <optional method>
 ```
 Optional methods are nodemon, node, and forever.
 ### Get pencilblue-cli version
 ```
-pencilblue version
+pbctrl version
 ```
 or 
 ```
-pencilblue --version
+pbctrl --version
 ```
 or
 ```
-pencilblue v
+pbctrl v
 ```
 
 ### Get pencilblue-cli help
 ```
-pencilblue
+pbctrl
 ```
 or
 ```
-pencilblue help
+pbctrl help
 ```
 or
 ```
-pencilblue h
+pbctrl h
 ```
 
 ## License
