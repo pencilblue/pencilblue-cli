@@ -37,7 +37,8 @@
   "keywords": ["pencilblue", "cms", "cli", "install"],
   "preferGlobal": "true",
   "bin": {
-    "pencilblue": "lib/pencilblue-cli.js"
+    "pencilblue": "lib/pencilblue-cli.js",
+    "pbctrl": "lib/pencilblue-cli.js"
   },
   "dependencies": {
     "shelljs": "^0.3.0",
