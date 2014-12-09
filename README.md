@@ -15,7 +15,7 @@ From the root directory of a PencilBlue instance:
 ```
 pbctrl start <optional method>
 ```
-Optional methods are nodemon, node, and forever.
+Optional methods are nodemon, node, and forever.  When no option is provided the ```node``` option will be used
 ### Get pencilblue-cli version
 ```
 pbctrl version
