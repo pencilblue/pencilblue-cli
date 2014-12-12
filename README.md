@@ -1,4 +1,5 @@
 # pencilblue-cli
+[![NPM info](https://nodei.co/npm/pencilblue-cli.png?downloads=true)](https://nodei.co/npm/pencilblue-cli.png?downloads=true)
 
 A command line interface for PencilBlue.
 
