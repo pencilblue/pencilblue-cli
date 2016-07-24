@@ -1,0 +1,12 @@
+{
+  "source": {
+    "include": [
+      "lib",
+      "lib/services"
+    ]
+  },
+  "opts": {
+    "template": "node_modules/minami",
+    "destination": "./docs/"
+  }
+}
