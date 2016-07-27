@@ -19,8 +19,8 @@ describe('InstallService', function() {
     install.getInstallSchema().should.be.an('object');
   });
 
-  it('should confirm install requirements', function(done) {
-    install.confirmRequirements().should.eventually.be.fulfilled.and.notify(done);
+  it('should confirm install requirements', function() {
+    install.hasRequirements().should.equal(true);
   });
 
   it('should install PencilBlue', function(done) {
