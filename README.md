@@ -1,5 +1,6 @@
 # pencilblue-cli
 [![NPM info](https://nodei.co/npm/pencilblue-cli.png?downloads=true)](https://nodei.co/npm/pencilblue-cli.png?downloads=true)
+[![Build Status](https://travis-ci.org/pencilblue/pencilblue-cli.svg?branch=master)](https://travis-ci.org/pencilblue/pencilblue-cli)
 
 A command line interface for PencilBlue.
 
