@@ -1,48 +1,49 @@
 # pencilblue-cli
 [![NPM info](https://nodei.co/npm/pencilblue-cli.png?downloads=true)](https://nodei.co/npm/pencilblue-cli.png?downloads=true)
+[![Build Status](https://travis-ci.org/pencilblue/pencilblue-cli.svg?branch=master)](https://travis-ci.org/pencilblue/pencilblue-cli)
 
 A command line interface for PencilBlue.
 
 ## Getting Started
-Install the module with: `sudo npm install -g pencilblue-cli`
+Install the module with: `npm install -g pencilblue-cli`
 
 ## Examples
+
 ### Create and install a PencilBlue instance
-```
+```shell
 pbctrl install <directory>
 ```
-### Start PencilBlue
-From the root directory of a PencilBlue instance:
+or
+```shell
+pbctrl install <version> <directory>
 ```
-pbctrl start <optional method>
-```
-Optional methods are nodemon, node, and forever.  When no option is provided the ```node``` option will be used
+
 ### Get pencilblue-cli version
-```
+```shell
 pbctrl version
 ```
-or 
-```
+or
+```shell
 pbctrl --version
 ```
 or
-```
+```shell
 pbctrl v
 ```
 
 ### Get pencilblue-cli help
-```
+```shell
 pbctrl
 ```
 or
-```
+```shell
 pbctrl help
 ```
 or
-```
+```shell
 pbctrl h
 ```
 
 ## License
-Copyright (c) 2014 PencilBlue  
+Copyright (c) 2016 PencilBlue  
 Licensed under the MIT license.

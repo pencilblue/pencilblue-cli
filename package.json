@@ -1,7 +1,7 @@
 {
   "name": "pencilblue-cli",
   "description": "A command line interface for PencilBlue.",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "homepage": "https://pencilblue.org",
   "author": {
     "name": "pencilblue",
@@ -15,24 +15,14 @@
   "bugs": {
     "url": "https://github.com/pencilblue/pencilblue-cli/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://pencilblue.org/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "lib/pencilblue-cli",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 4.4.7"
   },
   "scripts": {
-    "test": "grunt nodeunit"
-  },
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.5"
+    "test": "./node_modules/.bin/mocha;rm -rf pb-mocha-test-install",
+    "docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose --readme README.md"
   },
   "keywords": [
     "pencilblue",
@@ -46,8 +36,17 @@
     "pbctrl": "lib/pencilblue-cli.js"
   },
   "dependencies": {
-    "process": "0.9.0",
-    "prompt": "^0.2.13",
-    "shelljs": "^0.3.0"
+    "colors": "^1.1.2",
+    "process": "^0.11.5",
+    "prompt": "^1.0.0",
+    "q": "^1.4.1",
+    "shelljs": "^0.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1",
+    "mocha": "^2.5.3"
   }
 }
